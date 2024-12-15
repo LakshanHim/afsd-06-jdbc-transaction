@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root3" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ACPT.controller.SaveFormController">
+   <children>
+      <Label layoutX="217.0" layoutY="28.0" text="Save Form" textFill="#cf1212">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="199.0" layoutY="95.0" prefHeight="26.0" prefWidth="238.0" promptText="Enter the id" />
+      <TextField fx:id="txtPrice" layoutX="199.0" layoutY="296.0" prefHeight="26.0" prefWidth="238.0" promptText="Enter the price" />
+      <TextField fx:id="txtBrand" layoutX="199.0" layoutY="149.0" prefHeight="26.0" prefWidth="238.0" promptText="Enter the brand" />
+      <TextField fx:id="txtModel" layoutX="199.0" layoutY="200.0" prefHeight="26.0" prefWidth="238.0" promptText="Enter the model" />
+      <TextField fx:id="txtQty" layoutX="199.0" layoutY="247.0" prefHeight="26.0" prefWidth="238.0" promptText="Enter the qty" />
+      <Button layoutX="207.0" layoutY="338.0" mnemonicParsing="false" onAction="#btnSave" prefHeight="38.0" prefWidth="85.0" style="-fx-background-color: green;" text="Save" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="336.0" layoutY="338.0" mnemonicParsing="false" onAction="#btnCancle" prefHeight="40.0" prefWidth="86.0" style="-fx-background-color: red;" text="Cancle" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="74.0" layoutY="99.0" text="Enter the id:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="152.0" text="Enter the brand:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="203.0" text="Enter the model:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="250.0" text="Enter the quantity:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="299.0" text="Enter the price:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="503.0" layoutY="42.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="51.0" text="Back" />
+   </children>
+</AnchorPane>

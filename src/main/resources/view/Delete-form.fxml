@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root4" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ACPT.controller.DeleteFormController">
+   <children>
+      <Label layoutX="225.0" layoutY="29.0" text="Delete Form">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtid" layoutX="180.0" layoutY="127.0" prefHeight="27.0" prefWidth="239.0" promptText="Enter  id" />
+      <Button layoutX="143.0" layoutY="263.0" mnemonicParsing="false" onAction="#btnDelete" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #52df3c;" text="Delete" textFill="WHITE" />
+      <Button layoutX="382.0" layoutY="263.0" mnemonicParsing="false" onAction="#btnCancle" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #d91717;" text="Cancle" textFill="WHITE" />
+      <Button layoutX="505.0" layoutY="36.0" mnemonicParsing="false" onAction="#btnBack" text="Back" />
+   </children>
+</AnchorPane>
