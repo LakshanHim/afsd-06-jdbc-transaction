@@ -17,5 +17,12 @@ public class Queue {
             temp.next = newNode;
         }
     }
+    public void printQueue(){
+        Node temp = top;
+        while (temp != null) {
+            System.out.println(temp.data);
+            temp = temp.next;
+
+    }
 
 }
